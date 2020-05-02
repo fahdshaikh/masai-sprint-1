@@ -1,0 +1,134 @@
+* {
+    background-color: rgba(27, 172, 164, 0.459);
+}
+
+.cars {
+    /* border: 2px dashed black; */
+    margin: auto;
+    width: 80%;
+    height: 2000px;    
+}
+
+#id1 {
+    padding: 0px !important;
+    margin: 0px !important;
+    font-size: 95px;
+}
+
+.cars div {
+    /* border: 2px dashed red; */
+    margin: 8px;
+    padding: 8px;    
+}
+
+.left {
+    float: left;
+}
+
+.class2 {
+    background-image: url(https://static.thenounproject.com/png/1833958-200.png);
+    height: 80px;
+    width: 80px;
+    background-size: contain ;
+}
+
+.class3 {
+    clear: left;
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.class4 {
+    height: 300px;
+    width: 680px;
+    font-size: 22px;
+}
+
+.class5 {
+    height: 200px;
+    width: 400px;
+    font-size: 22px;
+}
+
+.class6 {
+    display: flex;    
+    margin: 10px;
+    clear: both;
+    float: left;
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.box1 {
+    height: 30px;
+    width: 900px;
+    
+} 
+.box2 {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    text-align: right;
+}
+
+.class7 {    
+    height: 150px;
+    width: 98%;
+    text-align: left;
+    font-size: 28px;
+
+}
+
+.class8 {
+    height: 300px;
+    width: 47%;    
+    clear: right;
+
+}
+
+.class9 {
+    float: left;
+    width: auto;
+    height: auto;
+    margin: 0px !important;
+    padding: 0px !important;
+    font-size: 65px;
+    font-weight: bold;    
+}
+
+.class10 {
+    float: left;
+    clear: right;
+    width: auto;
+    height: auto;    
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.class11 {
+    float: left;
+    clear: both;
+    width: auto;
+    height: auto;    
+    font-size: 28px;
+    font-weight: lighter;
+}
+
+.click {
+    background-color: skyblue;
+    font-size: 22px;
+    font-weight: bold;
+    width: auto;
+    height: auto;
+}
+
+
+
+
+
+
+
+
