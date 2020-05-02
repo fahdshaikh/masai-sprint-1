@@ -1,21 +1,37 @@
 * {
     background-color: rgba(27, 172, 164, 0.459);
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-.cars {
+.cars1 {
     /* border: 2px dashed black; */
     margin: auto;
     width: 80%;
-    height: 2000px;    
+    height: 2020px;    
+}
+
+.cars2 {
+    /* border: 2px dashed black; */
+    margin: auto;
+    width: 80%;
+    height: 3520px;    
 }
 
 #id1 {
     padding: 0px !important;
     margin: 0px !important;
     font-size: 95px;
+    font-style: italic;
+    text-decoration: underline;
 }
 
-.cars div {
+.cars1 div {
+    /* border: 2px dashed red; */
+    margin: 8px;
+    padding: 8px;    
+}
+
+.cars2 div {
     /* border: 2px dashed red; */
     margin: 8px;
     padding: 8px;    
@@ -25,14 +41,29 @@
     float: left;
 }
 
-.class2 {
+.logo1 {
     background-image: url(https://static.thenounproject.com/png/1833958-200.png);
-    height: 80px;
-    width: 80px;
-    background-size: contain ;
 }
 
-.class3 {
+.logo2 {
+    background-image: url(https://static.thenounproject.com/png/1086262-200.png);
+}
+
+.logo3 {
+    background-image: url(https://static.thenounproject.com/png/1086240-200.png);
+}
+
+.logo4 {
+    background-image: url(https://static.thenounproject.com/png/3315324-200.png);
+}
+
+.logo1, .logo2, .logo3, .logo4 {
+    height: 80px;
+    width: 80px;
+    background-size: contain;
+}
+
+.class1 {
     clear: left;
     float: left;
 }
@@ -41,19 +72,19 @@
     float: right;
 }
 
-.class4 {
+.class2 {
     height: 300px;
     width: 680px;
     font-size: 22px;
 }
 
-.class5 {
+.class3 {
     height: 200px;
     width: 400px;
     font-size: 22px;
 }
 
-.class6 {
+.class4 {
     display: flex;    
     margin: 10px;
     clear: both;
@@ -74,22 +105,21 @@
     text-align: right;
 }
 
-.class7 {    
-    height: 150px;
-    width: 98%;
+.class5 {    
+    height: auto;
+    width: 97%;
     text-align: left;
     font-size: 28px;
-
 }
 
-.class8 {
+.class6 {
     height: 300px;
     width: 47%;    
     clear: right;
 
 }
 
-.class9 {
+.class7 {
     float: left;
     width: auto;
     height: auto;
@@ -99,16 +129,17 @@
     font-weight: bold;    
 }
 
-.class10 {
+.class8 {
     float: left;
     clear: right;
     width: auto;
     height: auto;    
     font-size: 45px;
     font-weight: bold;
+    text-decoration: underline;
 }
 
-.class11 {
+.class9 {
     float: left;
     clear: both;
     width: auto;
@@ -125,10 +156,10 @@
     height: auto;
 }
 
-
-
-
-
-
-
-
+.class10 {    
+    height: auto;
+    width: 97%;
+    text-align: left;
+    font-size: 26px;
+    font-weight: bold;
+}
